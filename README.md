@@ -1,4 +1,4 @@
-# ESP8266 Home Automation System with Blynk and DHT11
+# Smart Home Automation System with Blynk, ESP8266 and DHT11
 
 This project implements a home automation system using an ESP8266 microcontroller, a DHT11 temperature and humidity sensor, and the Blynk IoT platform. It allows users to remotely control four LEDs and monitor temperature via the Blynk app.
 
