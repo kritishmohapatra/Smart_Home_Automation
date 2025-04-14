@@ -1,12 +1,12 @@
 # Smart Home Automation System with Blynk, ESP8266 and DHT11
 
-This project implements a home automation system using an ESP8266 microcontroller, a DHT11 temperature and humidity sensor, and the Blynk IoT platform. It allows users to remotely control four LEDs and monitor temperature via the Blynk app.
+This project implements a home automation system using an ESP8266 microcontroller, a DHT11 temperature and humidity sensor, and the Blynk IoT platform. It allows users to remotely control four LED Bulbs and monitor temperature via the Blynk app.
 
 ## Prerequisites
 
 * **ESP8266 Development Board:** (e.g., NodeMCU)
 * **DHT11 Temperature and Humidity Sensor**
-* **LEDs (4)**
+* **LED Bulbs (4)**
 * **220 Ohm Resistors (4):** For current limiting with the LEDs.
 * **MicroPython Firmware:** Flashed onto the ESP8266.
 * **Blynk Account and App:** Set up on your smartphone.
@@ -17,11 +17,11 @@ This project implements a home automation system using an ESP8266 microcontrolle
 
 1.  **LED Connections:**
     * Connect the anode (longer leg) of each LED to the following ESP8266 pins:
-        * LED 1: D0 (GPIO16)
-        * LED 2: D1 (GPIO5)
-        * LED 3: D2 (GPIO4)
-        * LED 4: D3 (GPIO0)
-    * Connect the cathode (shorter leg) of each LED to ground (GND) through a 220 Ohm resistor.
+        * LED BULB 1: D0 (GPIO16)
+        * LED BULB 2: D1 (GPIO5)
+        * LED BULB 3: D2 (GPIO4)
+        * LED BULB 4: D3 (GPIO0)
+    * Connect the cathode (shorter leg) of each LED to ground (GND) through a 220 Ohm resistor(For LEDs).
 
 2.  **DHT11 Connection:**
     * Connect the VCC pin of the DHT11 to 3.3V on the ESP8266.
@@ -77,7 +77,7 @@ This project implements a home automation system using an ESP8266 microcontrolle
 
 2.  **Connect to Blynk:** The ESP8266 will connect to your Wi-Fi and Blynk.
 
-3.  **Control LEDs:** Use the buttons in the Blynk app to turn the LEDs on or off.
+3.  **Control LEDs:** Use the buttons in the Blynk app to turn the LED BULBs on or off.
 
 4.  **Monitor Temperature:** The temperature will be displayed on the gauge widget in the Blynk app.
 
