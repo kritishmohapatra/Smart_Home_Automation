@@ -88,6 +88,9 @@ This project implements a home automation system using an ESP8266 microcontrolle
 * **Pin Assignments:** Double-check the pin assignments in the code and hardware setup.
 * **MicroPython Libraries:** Make sure the required MicroPython libraries are installed.
 * **Error Handling:** The code includes basic error handling, but you can add more robust error checking.
+## Practical Video
+
+https://github.com/user-attachments/assets/bef6c9de-e6a4-403e-8396-ddf06b5a8266
 
 ## Customization
 
