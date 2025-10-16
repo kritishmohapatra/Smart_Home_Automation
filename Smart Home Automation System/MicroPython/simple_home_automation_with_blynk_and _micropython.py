@@ -28,7 +28,7 @@ while not sta_if.isconnected(): # Wait until connected to Wi-Fi
 print("Connected to Wi-Fi:", sta_if.ifconfig()) # Print the Wi-Fi connection details
 
 # Initialize Blynk Connection
-blynk = BlynkLib.Blynk(auth) # Create a Blynk object with the auth token
+blynk = BlynkLib.Blynk(auth, insecure=True) # Create a Blynk object with the auth token
 
 # Create LED Object
 led1=Pin(16, Pin.OUT) # Initialize LED 1 on pin 16 (D0), set as output

@@ -1,5 +1,4 @@
 # Copyright (c) 2015-2019 Volodymyr Shymanskyy. See the file LICENSE for copying permission.
-# original repo----https://github.com/vshymanskyy/blynk-library-python/blob/master/BlynkLib.py
 
 __version__ = "1.0.0"
 
@@ -263,3 +262,4 @@ class Blynk(BlynkProtocol):
         except: # TODO: handle disconnect
             return
         self.process(data)
+
